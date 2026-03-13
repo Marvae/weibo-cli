@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.npm-cache/
+*.log
+.DS_Store
+package-lock.json
+bun.lock
