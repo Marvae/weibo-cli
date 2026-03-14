@@ -1,23 +1,35 @@
 ---
 name: weibo-cli
 description: |
-  Query Weibo (微博) data via CLI. Use when user asks about:
+  Query Weibo (微博) public data via CLI. Use when user asks about:
   - Weibo hot searches / trending topics (微博热搜)
   - Searching Weibo posts, users, or topics
   - Getting user profiles, feeds, followers
   - Reading post details or comments
+  No authentication required - uses public mobile web API.
   Chinese social media platform.
 ---
 
 # Weibo CLI
 
-Query Weibo via `weibo` command.
+Query Weibo public data via `weibo` command. No login or API key required.
 
 ## Installation
 
 ```bash
+# Global install
 npm install -g @marvae24/weibo-cli
+
+# Or local install (safer)
+npm install @marvae24/weibo-cli
+npx @marvae24/weibo-cli hot
 ```
+
+## Authentication
+
+**No authentication required.** The CLI uses Weibo's public mobile web API with auto-generated visitor cookies. All data accessed is publicly available on weibo.com.
+
+Optional: Set `WEIBO_COOKIE` environment variable for higher rate limits (your own login cookie).
 
 ## Commands
 
