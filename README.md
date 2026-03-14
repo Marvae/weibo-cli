@@ -14,10 +14,13 @@ Weibo CLI - fetch trending, search, and user data from the terminal.
 ## Installation
 
 ```bash
-git clone https://github.com/Marvae/weibo-cli.git
-cd weibo-cli
-npm install && npm run build
-npm link
+npm install -g @marvae24/weibo-cli
+```
+
+Or run directly:
+
+```bash
+npx @marvae24/weibo-cli hot
 ```
 
 

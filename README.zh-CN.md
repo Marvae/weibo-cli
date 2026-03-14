@@ -14,10 +14,13 @@
 ## 安装
 
 ```bash
-git clone https://github.com/Marvae/weibo-cli.git
-cd weibo-cli
-npm install && npm run build
-npm link
+npm install -g @marvae24/weibo-cli
+```
+
+或者直接用 npx：
+
+```bash
+npx @marvae24/weibo-cli hot
 ```
 
 

@@ -1,5 +1,5 @@
 {
-  "name": "@marvae/weibo-cli",
+  "name": "@marvae24/weibo-cli",
   "version": "0.1.0",
   "description": "Weibo CLI - fetch trending, search, and user data from the terminal",
   "license": "MIT",
